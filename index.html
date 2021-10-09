@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Our Lovely Course</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target="#mynavBar">
+
+    <!-- Add video to the body element -->
+    <video autoplay muted loop id="bgvideo">
+      <source src="image/Under_the_Sea.mp4" type="video/mp4">
+   </video>
+
+    <!-- Create navigation Bar with scrollspy -->
+        <nav role="navigation" class="navbar navbar-custom navbar-fixed-top" id="mynavBar">
+        <div class="container-fluid">
+           <div class="navbar-header">
+              <a class="navbar-brand">Our Complete Web Development Course</a>
+                <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+  
+           </div>
+           <div class="navbar-collapse collapse" id="navbarCollapse">
+             <ul class="nav navbar-nav navbar-right">
+                 <li><a href="#home" class="active"> Home</a></li>
+                 <li><a href="#about"> About</a></li>
+                 <li><a href="#promise"> Our Promise</a></li>
+             </ul>
+           </div>
+        </div>
+      </nav>
+
+    <!-- Create the home section with title goal and join us button -->
+        <div class="jumbotron" id="home">
+            <div class="container">
+               <h1>The Complete Web Development Course</h1>
+               <h2>Go from Zero-skills to Cash-Earning Web Developer</h2>
+               <a href="https://www.developmentisland.com/" target="blank"><p class="btn">Join Us Now!</p></a>
+            </div>
+        </div>
+      <!-- Create about section showing course details Using grid system-->
+        <div id="about">
+           <div class="container">
+              <div class="row">
+                 <div class="col-md-4">
+                   <img src="image/Quality.png" class="aboutimg">
+                   <h2>High Quality Lectures</h2>
+                   <p>All lectures have been very well prepared for the best learning experience of future developers.</p>
+                 </div>
+
+                 <div class="col-md-4">
+                  <img src="image/Contents.png" class="aboutimg">
+                  <h2>+80H of Rich Contents</h2>
+                  <p>Learn all major Web Technologies: HTML5, CSS3, Javascript, JQuery, Twitter Bootstrap, PHP, mySQL, Wordpress, Ajax, XML, JSON, Mobile Apps, ApI's: Google Maps, Facebook and MORE!</p>
+                </div>
+
+                <div class="col-md-4">
+                  <img src="image/Help.png" class="aboutimg">
+                  <h2>Get Help Anytime!</h2>
+                  <p>Post your questions in the forums of the course where myself and thousands of students are happy to help!</p>
+                </div>
+              </div>
+           </div>
+        </div>
+    <!-- Create carousel -->
+      <!-- Carousels -->
+      <div class="container-fluid" id="promise">
+        <div class="carousel slide" id="myCarousel" data-ride="carousel">
+          <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                <li data-slide-to="1" data-target="#myCarousel"></li>
+                <li data-slide-to="2" data-target="#myCarousel"></li>
+                <li data-slide-to="3" data-target="#myCarousel"></li>
+                <li data-slide-to="4" data-target="#myCarousel"></li>
+                <li data-slide-to="5" data-target="#myCarousel"></li>
+                <li data-slide-to="6" data-target="#myCarousel"></li>
+            </ol>
+
+            <!-- Carousels Images (7 images) -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <!-- Carousel image 1-->
+                <img src="image/Lecture.jpg">
+                <!-- Image titles -->
+                <div class="carousel-caption">
+                   <h2>Crystal Clear and Engaging 100% Hands-on Lectures.</h2>
+                </div>
+              </div>
+
+              <div class="item">
+                <!-- Carousel image 2-->
+                 <img src="image/Puzzle.jpg">
+                 <!-- Image titles -->
+                 <div class="carousel-caption">
+                    <h2>Full curriculum including all major Web Technologies: Front-End, Back end, Mobile Apps and API's.</h2>
+                 </div>
+               </div>
+
+               <div class="item">
+                <!-- Carousel image 2-->
+                 <img src="image/Start.jpg">
+                 <!-- Image titles -->
+                 <div class="carousel-caption">
+                    <h2>Start from Zero-Skills! No prior knowledge is required.</h2>
+                 </div>
+               </div>
+
+               <div class="item">
+                <!-- Carousel image 2-->
+                 <img src="image/Project.jpg">
+                 <!-- Image titles -->
+                 <div class="carousel-caption">
+                    <h2>Build over 15 real professional Websites, Games and Mobile Apps.</h2>
+                 </div>
+               </div>
+
+               <div class="item">
+                <!-- Carousel image 2-->
+                 <img src="image/Money.jpg">
+                 <!-- Image titles -->
+                 <div class="carousel-caption">
+                    <h2>Start Making money from week 1 and Earn over 30000$ by the time you finish the Course.</h2>
+                 </div>
+               </div>
+
+               <div class="item">
+                <!-- Carousel image 2-->
+                 <img src="image/Time.jpg">
+                 <!-- Image titles -->
+                 <div class="carousel-caption">
+                    <h2>Lifetime access to all course material.</h2>
+                 </div>
+               </div>
+
+               <div class="item">
+                <!-- Carousel image 2-->
+                 <img src="image/Skill.jpg">
+                 <!-- Image titles -->
+                 <div class="carousel-caption">
+                    <h2>Enhance your career and employability skills.</h2>
+                 </div>
+               </div>
+
+            </div>
+          <!-- Carousel left control icon (Previous) -->
+                      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                      </a>
+
+                      <!-- Carousel right control icon (Next) -->
+                      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                      </a>
+     </div>
+  </div>
+           
+    <!-- Create footer for our website. -->
+     <div class="footer">
+       <div class="container">
+        <p>Copyright &copy;Develop with Nelson Omoniyi.</p>
+        <p>Credit: Get images from Logomakr.com</p>
+       </div>
+     </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      
+    </script>
+  </body>
+</html>
